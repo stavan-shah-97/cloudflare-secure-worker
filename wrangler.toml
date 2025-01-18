@@ -1,0 +1,16 @@
+name = "my-worker"
+main = "index.js"
+compatibility_date = "2025-01-16"
+
+[build]
+command = "npm install"
+
+[env.production]
+workers_dev = false
+routes = [
+  { pattern = "*tunnel.stavancorporation.org/secure*", zone_id = "Your_CloudFlare_Zone_ID_Here" }
+]
+
+[[env.production.r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "country-flags"
