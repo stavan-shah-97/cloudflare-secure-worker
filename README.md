@@ -12,7 +12,7 @@ Cloudflare Zone ID: You'll need your Cloudflare Zone ID for this to work correct
 
 Setup Instructions:
 1. Install Wrangler
-If you haven't already installed the Wrangler CLI, follow the instructions here to set it up.
+Install Wrangler CLI
 
 2. Configure wrangler.toml
 In the wrangler.toml file, you'll need to include the following:
