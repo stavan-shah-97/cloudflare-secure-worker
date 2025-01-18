@@ -6,6 +6,7 @@ Prerequisites:
 Before running this worker, ensure you have the following:
 
 Cloudflare Account: You need a Cloudflare account to configure Workers and R2.
+You will also need to setup relevant CloudFlare access to the tunnel.
 Cloudflare Worker Setup: You should have Cloudflare's Wrangler CLI tool installed and configured.
 R2 Bucket: A private Cloudflare R2 bucket containing country flags in PNG format (one for each country).
 Cloudflare Zone ID: You'll need your Cloudflare Zone ID for this to work correctly.
