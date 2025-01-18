@@ -1,4 +1,5 @@
 Cloudflare Worker for Serving Country Flags:
+
 This Cloudflare Worker serves a secure page displaying the authenticated user's email, timestamp, and country. It also fetches and displays the country flag stored in a private R2 bucket, using a signed URL to ensure secure access.
 
 Prerequisites:
