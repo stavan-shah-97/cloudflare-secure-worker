@@ -12,9 +12,11 @@ Cloudflare Zone ID: You'll need your Cloudflare Zone ID for this to work correct
 
 Setup Instructions:
 1. Install Wrangler
+   
 Install Wrangler CLI
 
 2. Configure wrangler.toml
+   
 In the wrangler.toml file, you'll need to include the following:
 
 Your Cloudflare Zone ID.
@@ -28,6 +30,7 @@ wrangler deploy --env production
 This will deploy your Worker in the production environment, and it will be live on your Cloudflare domain (tunnel.yourwebsite.com).
 
 4. Access the Worker
+   
 After deploying, you can access the worker at the following URL:
 
 For the secure page: https://tunnel.yourwebsite.com/secure
